@@ -1,0 +1,7 @@
+.profileHeader__wrapper {
+	height: 150px;
+}
+
+.profileHeader__img {
+	object-fit: cover;
+}

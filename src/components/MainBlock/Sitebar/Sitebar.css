@@ -1,0 +1,26 @@
+.sitebar {
+	flex: 0 0 20%;
+	background-color: rgb(70, 0, 0);
+}
+
+.sitebsr__wrapper {
+	padding: 20px;
+}
+
+.sitebar__list {
+	display: flex;
+	flex-direction: column;
+	gap: 15px;
+}
+
+.sitebar__lincList {
+	color: #fff;
+	font-size: 18px;
+}
+
+.sitebar__setingsBlock {
+	margin-top: 30px;
+	color: #fde400;
+
+
+}

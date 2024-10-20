@@ -1,0 +1,11 @@
+.prifileAva__wrapper {
+	flex: 0 1 150px;
+	max-height: 150px;
+
+	border-radius: 50%;
+	overflow: hidden;
+}
+
+.profileAva__img {
+	object-fit: cover;
+}

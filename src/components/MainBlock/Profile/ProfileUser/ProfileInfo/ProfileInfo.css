@@ -1,0 +1,21 @@
+.profileInfo__wrapper {
+
+	flex: 0 1 auto;
+}
+
+.profileInfo__nameUser {
+	font-size: 30px;
+	font-weight: 800;
+	margin-bottom: 49px;
+}
+
+.profileInfo__list {
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+}
+
+.profileInfo__element {
+	font-size: 18px;
+	font-weight: 500;
+}

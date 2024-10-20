@@ -1,0 +1,12 @@
+.profilePostsElement__wrapper {
+	display: flex;
+	gap: 20px;
+	align-items: center;
+	padding: 10px 0 10px 0;
+
+}
+
+.profilePostsElement__imagesBlock {
+	width: 50px;
+	height: 50px;
+}
