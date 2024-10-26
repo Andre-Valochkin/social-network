@@ -7,6 +7,46 @@
 }
 
 .profilePostsElement__imagesBlock {
-	width: 50px;
-	height: 50px;
+	flex: 0 0 50px;
+}
+
+.profilePostsElement__infoBlokUser {
+	flex: 0 1 auto;
+}
+
+.profilePostsElement__nameAgeBlock {
+	display: flex;
+	gap: 40px;
+	margin-bottom: 30px;
+	align-items: end;
+}
+
+
+
+.profilePostsElement__nameUser {
+	font-size: 20px;
+	font-weight: 800;
+}
+
+.profilePostsElement__ageUser {
+	font-size: 12px;
+	font-weight: 800;
+	color: rgba(0, 0, 0, 0.349);
+}
+
+.profilePostsElement__messagesUser {
+	font-size: 20px;
+	font-weight: 500;
+	margin-bottom: 15px;
+}
+
+.profilePostsElement__blockLike {
+	font-size: 12px;
+	font-weight: 800;
+	color: rgba(0, 0, 0, 0.349);
+}
+
+.profilePostsElement__blockLike span {
+	color: black;
+	font-size: 16px;
 }
