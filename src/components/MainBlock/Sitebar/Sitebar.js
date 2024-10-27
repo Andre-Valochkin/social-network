@@ -1,4 +1,7 @@
-import './Sitebar.css'
+import './Sitebar.css';
+
+import { Link } from 'react-router-dom';
+
 
 const Sitebar = () => {
 	return (
@@ -6,20 +9,20 @@ const Sitebar = () => {
 			<div className="sitebsr__wrapper">
 				<ul className="sitebar__list">
 					<li className="sitebar__elementList">
-						<a href="#" className="sitebar__lincList">Profile</a>
+						<Link to="/Profile" className="sitebar__lincList">Профиль</Link>
 					</li>
 					<li className="sitebar__elementList">
-						<a href="#" className="sitebar__lincList">Messages</a>
+						<Link to="/Massenger" className="sitebar__lincList">Сообщение</Link>
 					</li>
 					<li className="sitebar__elementList">
-						<a href="#" className="sitebar__lincList">News</a>
+						<Link to="/News" className="sitebar__lincList">News</Link>
 					</li>
 					<li className="sitebar__elementList">
-						<a href="#" className="sitebar__lincList">Music</a>
+						<Link to="/Music" className="sitebar__lincList">Music</Link>
 					</li>
 				</ul>
 				<div className="sitebar__setingsBlock">
-					<a className="sitebar__setingsLinc">Settings</a>
+					<Link to='/Settings' className="sitebar__setingsLinc">Settings</Link>
 				</div>
 			</div>
 		</div>
