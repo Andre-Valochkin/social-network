@@ -1,9 +1,13 @@
 import './Massenger.css';
+import MassegerUser from './massegerUser/massegerUser';
+import MassegerMasseg from './massegerMasseg/massegerMasseg';
 
-const Massenger = () => {
+
+const Massenger = (props) => {
 	return (
 		<div className='massenger__wrapper'>
-			Это страница сообщений
+			<MassegerUser userData={props.userData} />
+			<MassegerMasseg massegData={props.massegData} />
 		</div>
 	);
 }

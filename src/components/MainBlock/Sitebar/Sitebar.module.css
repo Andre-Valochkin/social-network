@@ -13,14 +13,21 @@
 	gap: 15px;
 }
 
-.sitebar__lincList {
+.sitebar__elementList a {
 	color: #fff;
 	font-size: 18px;
 }
 
 .sitebar__setingsBlock {
 	margin-top: 30px;
+}
+
+.sitebar__setingsBlock a {
+	font-size: 18px;
+	color: #ffffffa4;
+}
+
+.sitebar__elementList a.active {
+	font-weight: 800;
 	color: #fde400;
-
-
 }

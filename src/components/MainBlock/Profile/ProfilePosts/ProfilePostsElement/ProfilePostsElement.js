@@ -1,6 +1,7 @@
 import './ProfilePostsElement.css';
 
 const ProfilePostsElement = (props) => {
+
 	return (
 		<div className='profilePostsElement__wrapper'>
 			<div className='profilePostsElement__imagesBlock'>

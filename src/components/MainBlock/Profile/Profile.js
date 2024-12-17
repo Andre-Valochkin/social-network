@@ -4,13 +4,13 @@ import ProfileUser from './ProfileUser/ProfileUser.js';
 import ProfileTexteria from './ProfileTexteria/ProfileTexteria.js';
 import ProfilePosts from './ProfilePosts/ProfilePosts.js';
 
-const Profile = () => {
+const Profile = (props) => {
 	return (
 		<div className='profile__wrapper'>
 			<ProfileHeader />
 			<ProfileUser />
 			<ProfileTexteria />
-			<ProfilePosts />
+			<ProfilePosts profilePostsData={props.profilePostsData} />
 		</div>
 	);
 }

@@ -1,0 +1,7 @@
+.massegerMasseg {
+	padding: 20px 0 20px 50px;
+	flex: 0 1 70%;
+	display: flex;
+	flex-direction: column;
+	gap: 40px;
+}

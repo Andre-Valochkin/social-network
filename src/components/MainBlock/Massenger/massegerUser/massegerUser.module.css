@@ -1,0 +1,37 @@
+.massegerUser {
+	flex: 0 1 30%;
+	border-right: 2px solid #7001017e;
+	padding: 20px 40px 20px 20px;
+}
+
+.massegerUser__title {
+	font-size: 22px;
+	font-weight: 700;
+	margin-bottom: 30px;
+}
+
+.massegerUser__list {
+	display: flex;
+	flex-direction: column;
+	gap: 30px;
+
+}
+
+.massegerUser__listElement {
+	padding-left: 25px;
+	font-size: 20px;
+	font-weight: 500;
+	color: #00000062;
+	position: relative;
+}
+
+.massegerUser__listElement::before {
+	content: '';
+	position: absolute;
+	width: 5px;
+	height: 5px;
+	border-radius: 50%;
+	background-color: #00000062;
+	left: 0;
+	bottom: 8px;
+}
